@@ -1,0 +1,162 @@
+/* Variables */
+:root{
+    --background-color: #5f5f5f;
+    --color-text: #d1d1d1;
+}
+
+
+/* Body */
+html {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    background-color: var(--background-color);
+}
+
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo-1,
+.header-logo-2{
+    width: 4em;
+    height: 4em;
+    padding: 0 2em;
+}
+.header-title{
+    text-align: center;
+    font-size: 2.5em;
+}
+.subtitle{
+    margin-left: 1em;
+}
+
+/* Songs */
+.container{
+    margin-bottom: 3em;
+}
+.listado-canciones{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listado-canciones__cancion{
+    display: flex;
+    align-items: center;
+    margin: 0.5em 2em;
+    border-bottom: 1px solid var(--color-text);
+}
+.listado-canciones__title{
+    flex: 5;
+    text-align: center;
+}
+.listado-canciones__play,
+.listado-canciones__stop,
+.listado-canciones__download{
+    flex: 1;
+}
+.listado-canciones__download a{
+    color: var(--color-text);
+}
+.material-icons-outlined{
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+
+
+/* Volumen */
+.volumen-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.volumen{
+    appearance: none;
+    border-radius: 0.2rem;
+    width: 50vw;
+    height: 2rem;
+    background: none;
+    border: 1px solid var(--color-text);
+}
+.volumen::-webkit-slider-thumb{
+    appearance: none;
+    background-color: var(--color-text);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+}
+.volumen-container h3{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(56, 56, 56, 0.596);
+    height: 8em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+.footer-container a{
+    color: var(--color-text);
+}
+
+
+/* Responsive */
+@media all and (max-width: 600px) and (orientation: portrait){
+    /* Header */
+    .header-logo-1{
+        display: none;
+    }
+    .header-logo-2{
+        width: 4em;
+        height: 4em;
+        padding: 0 1em;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 2em;
+    }
+    .subtitle{
+        text-align: center;
+        margin: 2em 0em 0em;
+    }
+    /* Container */
+    .container{
+        margin-bottom: 0;
+    }
+    /* Volumen */
+    .volumen-container{
+        display: none;
+    }
+    /* Footer */
+    .footer-container{
+        margin-bottom: 1em;
+    }
+    .footer p{
+        margin: 0 1em;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 735px) and (orientation: landscape){
+    /* Volumen */
+    .volumen-container{
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>Reproductor de música</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9514dd5057.js" crossorigin="anonymous"></script>
+    <!-- CSS Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <img class="header-logo-1" src="assets/images/headphones-logo.png" alt="Logo auriculares">
+        <h1 class="header-title">Reproductor de música</h1>
+        <img class="header-logo-2" src="assets/images/headphones-logo.png" alt="Logo auriculares">
+    </div>
+    <!-- Main -->
+    <main>
+        <h2 class="subtitle">Listado de canciones</h2>
+        <div class="container">
+            <div class="listado-canciones">
+                <div class="listado-canciones__cancion">
+                    <div class="listado-canciones__title">
+                        <h2>American Idle</h2>
+                    </div>
+                    <div class="listado-canciones__play" id="american-idle">
+                        <span class="material-icons-outlined">
+                            play_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__stop">
+                        <span class="material-icons-outlined">
+                            stop_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__download">
+                        <a href="assets/audio/american-idle.mp3" download="American Idle">
+                            <span class="material-icons-outlined">
+                                file_download
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="listado-canciones__cancion">
+                    <div class="listado-canciones__title">
+                        <h2>Emergency On Level 3</h2>
+                    </div>
+                    <div class="listado-canciones__play" id="emergency-on-level-3">
+                        <span class="material-icons-outlined">
+                            play_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__stop">
+                        <span class="material-icons-outlined">
+                            stop_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__download">
+                        <a href="assets/audio/emergency-on-level-3.mp3" download="Emergency on level 3">
+                            <span class="material-icons-outlined">
+                                file_download
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="listado-canciones__cancion">
+                    <div class="listado-canciones__title">
+                        <h2>Pressure Cooker</h2>
+                    </div>
+                    <div class="listado-canciones__play" id="pressure-cooker">
+                        <span class="material-icons-outlined">
+                            play_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__stop">
+                        <span class="material-icons-outlined">
+                            stop_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__download">
+                        <a href="assets/audio/pressure-cooker.mp3" download="Pressure Cooker">
+                            <span class="material-icons-outlined">
+                                file_download
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="listado-canciones__cancion">
+                    <div class="listado-canciones__title">
+                        <h2>The Beacon</h2>
+                    </div>
+                    <div class="listado-canciones__play" id="the-beacon">
+                        <span class="material-icons-outlined">
+                            play_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__stop">
+                        <span class="material-icons-outlined">
+                            stop_circle
+                        </span>
+                    </div>
+                    <div class="listado-canciones__download">
+                        <a href="assets/audio/the-beacon.mp3" download="The Beacon">
+                            <span class="material-icons-outlined">
+                                file_download
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="volumen-container">
+            <h3>Volumen</h3>
+            <input class="volumen" type="range" max="1" min="0" step="0.01">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="https://github.com/tinchoz8426"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/enzo-martin-zotti/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com/tinchoz8426"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </div>
+        <p>Todos los derechos reservados. Reproductor de Música 2021.</p>
+    </footer>
+    <!-- JS Custom -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
