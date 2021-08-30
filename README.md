@@ -1,10 +1,11 @@
-<p align="center"><a href="https://www.linkedin.com/in/enzo-martin-zotti/" target="_blank">
+<p align="center"><a href="https://reproductor-musica.netlify.app/" target="_blank">
     <img src="assets/images/headphones-logo.png" width="150">
 </a></p>
 
 # Bienvenidos a Reproductor de música
 
 Proyecto realizado en un día con el fin de practicar.
+Aca te dejo el enlace a la página: https://reproductor-musica.netlify.app/
 
 ## Características
 -Reproductor de 4 canciones, con botones de reproducir, pausar y también con la opción de descargar la canción.
