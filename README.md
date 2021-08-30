@@ -13,7 +13,7 @@ Proyecto realizado en un día con el fin de practicar.
 -Se ha utilizado html5 semántico, CSS vanilla y JavaScript.
 -Completamente responsivo, para dispositivos móviles
 
-##Contacto
+## Contacto
 -[Linkedin](https://www.linkedin.com/in/enzo-martin-zotti/ "Linkedin")
 -[Twitter](https://twitter.com/tinchoz8426 "Twitter")
 -[WhatsApp](https://wa.link/pj26mm "WhatsApp")
